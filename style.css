@@ -57,3 +57,40 @@ section#mission-goals p {
 section#mission-goals strong {
     color: #006699;
 }
+/* تنسيق صفحة الاوائل */
+#top-students {
+    padding: 20px;
+    background-color: #006699; /* لون الخلفية الأزرق */
+    color: white; /* لون النص باللون الأبيض */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#top-students h2 {
+
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* تنسيق البطاقة الخاصة بكل طالب */
+.student-card {
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.student-info h3 {
+    font-size: 22px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.student-info p {
+    margin: 5px 0;
+    color: #555;
+}
