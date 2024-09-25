@@ -59,7 +59,6 @@ section#mission-goals p {
 section#mission-goals strong {
     color: #006699;
 }
-
 #graduation-projects {
     padding: 40px;
     background-color: #ffffff;
@@ -81,6 +80,7 @@ section#mission-goals strong {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
 .project-info h3 {
@@ -95,12 +95,12 @@ section#mission-goals strong {
     color: #555;
 }
 
-
 .project-card:hover {
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
     transform: scale(1.02);
     transition: all 0.3s ease;
 }
+
 
 #top-students {
     padding: 20px;
